@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Nescafe Sans';
+    src: url('NescafeSans-Semi-bold.eot');
+    src: url('NescafeSans-Semi-bold.eot?#iefix') format('embedded-opentype'),
+        url('NescafeSans-Semi-bold.woff2') format('woff2'),
+        url('NescafeSans-Semi-bold.woff') format('woff'),
+        url('NescafeSans-Semi-bold.ttf') format('truetype'),
+        url('NescafeSans-Semi-bold.svg#NescafeSans-Semi-bold') format('svg');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Nescafe Sans';
+    src: url('NescafeSans-Normal.eot');
+    src: url('NescafeSans-Normal.eot?#iefix') format('embedded-opentype'),
+        url('NescafeSans-Normal.woff2') format('woff2'),
+        url('NescafeSans-Normal.woff') format('woff'),
+        url('NescafeSans-Normal.ttf') format('truetype'),
+        url('NescafeSans-Normal.svg#NescafeSans-Normal') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nescafe Sans';
+    src: url('NescafeSans-Light.eot');
+    src: url('NescafeSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('NescafeSans-Light.woff2') format('woff2'),
+        url('NescafeSans-Light.woff') format('woff'),
+        url('NescafeSans-Light.ttf') format('truetype'),
+        url('NescafeSans-Light.svg#NescafeSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}

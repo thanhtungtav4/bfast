@@ -1,0 +1,80 @@
+.form-group .iv-label{
+    padding: 0;
+    text-align: left;
+}
+.ajax-file-upload-filename, .ajax-file-upload-progress {
+    max-width: 100%;
+}
+.ajax-file-upload-statusbar{text-align: center;max-width: 100%;margin-left: 0;}
+.ajax-upload-dragdrop{width: 100% !important;border: none}
+.ajax-upload-dragdrop, .text-drag{
+    text-align: center;
+}
+.text-drag{margin-top: 17px;display: block;;margin-bottom: 8px;color: #ccc}
+#fileuploader .ajax-file-upload-error{color: #f00}
+#fileuploader .ajax-file-upload {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    background:  none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#fileuploader {
+    position: relative;
+    clear: both;
+    border:none;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #cccccc24;
+    min-height: 92px;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+}
+#fileuploader:before {
+    content: "";
+    position: absolute;
+    border: 10px dashed #ccc;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+}
+.btn-send{cursor: pointer;padding:0;margin:30px auto;}
+.btn-send:active{
+    opacity: 0.8;
+}
+#frmInvoice .form-control {margin-bottom: 5px}
+#frmInvoice .form-group{margin-bottom: 15px}
+#frmInvoice label.error{margin: 0;padding: 0;height: auto;float: none;text-align:left;font-size:12px;}
+#uploadfrmcheck > label.error{font-size:12px;font-weight: bold}
+.ajax-file-upload-container {margin: 0}
+
+#start-lucky {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+#start-lucky img {
+    width: 100px;
+}
+.ajax-file-upload-statusbar{
+    width: 330px;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    #fileuploader{width: 100%}
+}
+
+.m-btn-2but {width: 100%}
+.m-btn-2but img{width: 215px;margin: 10px 5px;}
